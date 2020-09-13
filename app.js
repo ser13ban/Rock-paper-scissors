@@ -1,4 +1,4 @@
-const startGameBtn = document.getElementById("start-game-btn");
+const startGameBtn = document.getElementById("btn");
 
 const ROCK = "ROCK";
 const PAPER = "PAPER";
@@ -63,3 +63,5 @@ startGameBtn.addEventListener("click", function () {
   alert(message);
   isGameRunning = false;
 });
+
+//ADD A READ.ME FILE AND SUBBMIT TO THE GUTHUB REPO, ALSO DON'T FORGOT THAT YOU ADDED THE STYLE SHEET TO THE PROKECT.
